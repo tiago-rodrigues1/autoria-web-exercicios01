@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #0E0B0F;
+    color: #EEEEEE;
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: #FFC845;
+    background-color: #0C090D;
+    border-bottom: 2px solid rgba(238, 238, 238, .1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-family: 'Marck Script', cursive;
+}
+
+
+header svg {
+    width: 5rem;
+    height: 5rem;
+}
+
+header svg path {
+    fill: #FFDE8D;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: .25rem;
+}
+
+section div {
+    float: left;
+    width: calc(100vw / 4);
+    height: calc(100vw / 4);
+    margin: 2rem;
+    text-align: center;
+}
+
+section div legend {
+    padding: .5rem 0 2rem;
+}
